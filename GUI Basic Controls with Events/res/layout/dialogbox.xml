@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<!-- first button to show Toast example message-->
+<Button android:id="@+id/btn_toast"
+        android:text="show toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        
+<!-- second button to show Alert example message-->
+<Button android:id="@+id/btn_alert"
+        android:text="show alert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+<!-- third button to show Yes/No example message-->
+<Button android:id="@+id/btn_yesno"
+        android:text="show yes/no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        
+<!-- fourth button to show Progress example message-->
+<Button android:id="@+id/btn_progress"
+        android:text="show progressdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
